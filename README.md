@@ -13,3 +13,7 @@ obj2.self = obj2;
 
 nx.isCircular(obj2);// true
 ```
+
+## resouces:
++ https://blog.csdn.net/java_zys/article/details/51258997
++ https://github.com/douglascrockford/JSON-js
