@@ -8,7 +8,7 @@ describe('next/isCircular', function() {
     var obj2 = { email: '1290657123@qq.com' };
     obj2.self = obj2;
 
-    nx.isCircular(obj1, false);
-    nx.isCircular(obj2, true);
+    nx.isCircular(obj1, true);
+    nx.isCircular(obj2, false);
   });
 });

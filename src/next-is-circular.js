@@ -3,13 +3,12 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.isCircular = function(inTarget) {
-    var result = false;
     try {
       JSON.stringify(inTarget);
+      return true;
     } catch (_) {
-      result = true;
+      return false;
     }
-    return result;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
