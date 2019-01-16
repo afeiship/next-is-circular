@@ -15,5 +15,6 @@ nx.isCircular(obj2);// true
 ```
 
 ## resouces:
-+ https://blog.csdn.net/java_zys/article/details/51258997
-+ https://github.com/douglascrockford/JSON-js
+- https://blog.csdn.net/java_zys/article/details/51258997
+- https://github.com/douglascrockford/JSON-js
+- http://blog.vjeux.com/2011/javascript/cyclic-object-detection.html
